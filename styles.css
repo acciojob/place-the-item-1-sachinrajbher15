@@ -1,2 +1,15 @@
+.holder{
+	display:flex;
+	
+}
+.item:nth-child(1) {
+  background-color: red;; /* Light grey */
+}
 
-/* Your CSS Code here. */
+.item:nth-child(2) {
+  background-color: blue; /* Slightly darker grey */
+}
+
+.item {
+  background-color: green; /* Even darker grey */
+}
