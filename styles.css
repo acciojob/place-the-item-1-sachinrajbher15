@@ -1,15 +1,25 @@
-.holder{
+.holder {
 	display:flex;
-	
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+.item {
+	flex:1;
+	padding:10px;
+	margin: 5px;
 }
 .item:nth-child(1) {
-  background-color: red;; /* Light grey */
+	order:2;
+	background-color:red;
 }
-
 .item:nth-child(2) {
-  background-color: blue; /* Slightly darker grey */
+	order:3;
+	background-color:blue;
 }
-
+.item:nth-child(3) {
+	order:1;
+	background-color:green;
+}
 .item {
-  background-color: green; /* Even darker grey */
+	background-color:green;
 }
